@@ -8,8 +8,18 @@
 
 import Foundation
 import Firebase
+import FirebaseDatabase
 
 let BASE_URL = " "
+var myRef = FIRDatabase.database().reference()
+
+//var CURRENT_USER: Firebase
+//{
+//    let userID = NSUserDefaults.standardUserDefaults().valueForKey("uid") as! String
+//    let currentuser = Firebase(url: "\(myRef)").childByAppendingPath("users").childByAppendPath(userID)
+//    return currentuser!
+//    
+//}
 
 
 

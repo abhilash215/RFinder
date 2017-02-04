@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C2E72FA1DECB9890013938E /* SwiftyJSON in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E72F91DECB9890013938E /* SwiftyJSON */; };
+		4C2E72FC1DECB9CD0013938E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2E72FB1DECB9CD0013938E /* SwiftyJSON.swift */; };
 		4C3C450F1DE8B17A002D4463 /* apimanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3C450E1DE8B17A002D4463 /* apimanager.swift */; };
 		4C55B0151DEB47C30031ADB2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C55B0141DEB47C30031ADB2 /* LoginViewController.swift */; };
 		4C68B9DA1DEBB35C0009158A /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C68B9D91DEBB35C0009158A /* Base.swift */; };
@@ -16,13 +18,37 @@
 		4CD5A4081DC318D500957536 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5A4071DC318D500957536 /* ViewController.swift */; };
 		4CD5A40D1DC318D500957536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5A40C1DC318D500957536 /* Assets.xcassets */; };
 		4CD5A4101DC318D500957536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5A40E1DC318D500957536 /* LaunchScreen.storyboard */; };
+		4CDB49BB1DEE54D00091CEBA /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDB49BA1DEE54D00091CEBA /* UserProfile.swift */; };
 		4CEC80B21DE5582000CD52BA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CEC80B11DE5582000CD52BA /* GoogleService-Info.plist */; };
 		4CEC80B41DE5611E00CD52BA /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEC80B31DE5611E00CD52BA /* FirebaseCore.framework */; };
 		4CEC80B61DE564C200CD52BA /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEC80B51DE564C200CD52BA /* GoogleToolboxForMac.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		AE2D4DCD120F09F742E09F81 /* Pods_RFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFB82229A0A2B553E2F67E9B /* Pods_RFinder.framework */; };
+		F60100611DEDE6CB00DE45D0 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F601005D1DEDE6CB00DE45D0 /* Bolts.framework */; };
+		F60100621DEDE6CB00DE45D0 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F601005E1DEDE6CB00DE45D0 /* FBSDKCoreKit.framework */; };
+		F60100631DEDE6CB00DE45D0 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F601005F1DEDE6CB00DE45D0 /* FBSDKLoginKit.framework */; };
+		F60100641DEDE6CB00DE45D0 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60100601DEDE6CB00DE45D0 /* FBSDKShareKit.framework */; };
+		F60100661DEF799400DE45D0 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60100651DEF799400DE45D0 /* Restaurant.swift */; };
+		F60100681DEF848300DE45D0 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60100671DEF848300DE45D0 /* RestaurantCell.swift */; };
+		F601006A1DF068C700DE45D0 /* DetailRestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60100691DF068C700DE45D0 /* DetailRestaurantViewController.swift */; };
+		F601006C1DF124FB00DE45D0 /* FavRestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601006B1DF124FB00DE45D0 /* FavRestaurantCell.swift */; };
+		F601006E1DF125A400DE45D0 /* FavRestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601006D1DF125A400DE45D0 /* FavRestaurantViewController.swift */; };
+		F68816831DF1F9A500A56FA2 /* NoMoreItemsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68816821DF1F9A500A56FA2 /* NoMoreItemsCell.swift */; };
+		F68816871DF23FA800A56FA2 /* CustomizableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68816861DF23FA800A56FA2 /* CustomizableImageView.swift */; };
+		F68816891DF282EB00A56FA2 /* B68UIFloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68816881DF282EB00A56FA2 /* B68UIFloatLabelTextField.swift */; };
+		F6AF81B01DF3B5DA004A7B96 /* CreateRecipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AF81AF1DF3B5DA004A7B96 /* CreateRecipeVC.swift */; };
+		F6AF81B21DF3B64E004A7B96 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AF81B11DF3B64E004A7B96 /* RecipeViewController.swift */; };
+		F6AF81B41DF3B69E004A7B96 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AF81B31DF3B69E004A7B96 /* RecipeCell.swift */; };
+		F6AF81B61DF3B700004A7B96 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AF81B51DF3B700004A7B96 /* Recipe.swift */; };
+		F6AF81B81DF4AD02004A7B96 /* SwiftAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AF81B71DF4AD02004A7B96 /* SwiftAlert.swift */; };
+		F6AF81CC1DF5FA67004A7B96 /* KYWheelTabController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6AF81CB1DF5FA67004A7B96 /* KYWheelTabController.framework */; };
+		F6AF81D01DF607BC004A7B96 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AF81CF1DF607BC004A7B96 /* Toast.swift */; };
+		F6F7CE7E1DF2AC8E00AC5CD0 /* CellAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7CE7D1DF2AC8E00AC5CD0 /* CellAnimator.swift */; };
+		F6F7CE801DF2AEBF00AC5CD0 /* TipInCellAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F7CE7F1DF2AEBF00AC5CD0 /* TipInCellAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C2E72F91DECB9890013938E /* SwiftyJSON */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SwiftyJSON; sourceTree = "<group>"; };
+		4C2E72FB1DECB9CD0013938E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = SwiftyJSON/Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		4C3C450E1DE8B17A002D4463 /* apimanager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = apimanager.swift; sourceTree = "<group>"; };
 		4C55B0141DEB47C30031ADB2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4C55B0161DEBA2630031ADB2 /* RFinder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RFinder.entitlements; sourceTree = "<group>"; };
@@ -35,12 +61,34 @@
 		4CD5A40C1DC318D500957536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CD5A40F1DC318D500957536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CD5A4111DC318D500957536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDB49BA1DEE54D00091CEBA /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		4CEC80B11DE5582000CD52BA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4CEC80B31DE5611E00CD52BA /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = "../../../Firebase-1/Analytics/FirebaseCore.framework"; sourceTree = "<group>"; };
 		4CEC80B51DE564C200CD52BA /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = "../../../Firebase-1/Analytics/GoogleToolboxForMac.framework"; sourceTree = "<group>"; };
 		70B1EB088F2D6F5446E5FF37 /* Pods-RFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RFinder/Pods-RFinder.debug.xcconfig"; sourceTree = "<group>"; };
 		919DAC20EB9B6D0BED257905 /* Pods-RFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-RFinder/Pods-RFinder.release.xcconfig"; sourceTree = "<group>"; };
 		CFB82229A0A2B553E2F67E9B /* Pods_RFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F601005D1DEDE6CB00DE45D0 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		F601005E1DEDE6CB00DE45D0 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		F601005F1DEDE6CB00DE45D0 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		F60100601DEDE6CB00DE45D0 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		F60100651DEF799400DE45D0 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		F60100671DEF848300DE45D0 /* RestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		F60100691DF068C700DE45D0 /* DetailRestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailRestaurantViewController.swift; sourceTree = "<group>"; };
+		F601006B1DF124FB00DE45D0 /* FavRestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavRestaurantCell.swift; sourceTree = "<group>"; };
+		F601006D1DF125A400DE45D0 /* FavRestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavRestaurantViewController.swift; sourceTree = "<group>"; };
+		F68816821DF1F9A500A56FA2 /* NoMoreItemsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoMoreItemsCell.swift; sourceTree = "<group>"; };
+		F68816861DF23FA800A56FA2 /* CustomizableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizableImageView.swift; sourceTree = "<group>"; };
+		F68816881DF282EB00A56FA2 /* B68UIFloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = B68UIFloatLabelTextField.swift; sourceTree = "<group>"; };
+		F6AF81AF1DF3B5DA004A7B96 /* CreateRecipeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateRecipeVC.swift; sourceTree = "<group>"; };
+		F6AF81B11DF3B64E004A7B96 /* RecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		F6AF81B31DF3B69E004A7B96 /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		F6AF81B51DF3B700004A7B96 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		F6AF81B71DF4AD02004A7B96 /* SwiftAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftAlert.swift; sourceTree = "<group>"; };
+		F6AF81CB1DF5FA67004A7B96 /* KYWheelTabController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KYWheelTabController.framework; sourceTree = "<group>"; };
+		F6AF81CF1DF607BC004A7B96 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		F6F7CE7D1DF2AC8E00AC5CD0 /* CellAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellAnimator.swift; sourceTree = "<group>"; };
+		F6F7CE7F1DF2AEBF00AC5CD0 /* TipInCellAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipInCellAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +96,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F60100621DEDE6CB00DE45D0 /* FBSDKCoreKit.framework in Frameworks */,
 				4CEC80B61DE564C200CD52BA /* GoogleToolboxForMac.framework in Frameworks */,
+				F60100631DEDE6CB00DE45D0 /* FBSDKLoginKit.framework in Frameworks */,
+				F60100641DEDE6CB00DE45D0 /* FBSDKShareKit.framework in Frameworks */,
 				4CEC80B41DE5611E00CD52BA /* FirebaseCore.framework in Frameworks */,
 				AE2D4DCD120F09F742E09F81 /* Pods_RFinder.framework in Frameworks */,
+				F60100611DEDE6CB00DE45D0 /* Bolts.framework in Frameworks */,
+				F6AF81CC1DF5FA67004A7B96 /* KYWheelTabController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,13 +140,17 @@
 		4CD5A4041DC318D500957536 /* RFinder */ = {
 			isa = PBXGroup;
 			children = (
+				F6AF81CF1DF607BC004A7B96 /* Toast.swift */,
+				4C2E72F91DECB9890013938E /* SwiftyJSON */,
 				4C55B0161DEBA2630031ADB2 /* RFinder.entitlements */,
 				4CEC80B51DE564C200CD52BA /* GoogleToolboxForMac.framework */,
 				4CEC80B31DE5611E00CD52BA /* FirebaseCore.framework */,
 				4CEC80B11DE5582000CD52BA /* GoogleService-Info.plist */,
 				4CD5A4051DC318D500957536 /* AppDelegate.swift */,
+				4C2E72FB1DECB9CD0013938E /* SwiftyJSON.swift */,
 				4C68B9DF1DEBBBE60009158A /* Createaccount.swift */,
 				4C68B9DB1DEBB8110009158A /* Main.storyboard */,
+				4CDB49BA1DEE54D00091CEBA /* UserProfile.swift */,
 				4C68B9D91DEBB35C0009158A /* Base.swift */,
 				4CD5A4071DC318D500957536 /* ViewController.swift */,
 				4C3C450E1DE8B17A002D4463 /* apimanager.swift */,
@@ -101,6 +158,21 @@
 				4CD5A40E1DC318D500957536 /* LaunchScreen.storyboard */,
 				4CD5A4111DC318D500957536 /* Info.plist */,
 				4C55B0141DEB47C30031ADB2 /* LoginViewController.swift */,
+				F60100651DEF799400DE45D0 /* Restaurant.swift */,
+				F60100671DEF848300DE45D0 /* RestaurantCell.swift */,
+				F60100691DF068C700DE45D0 /* DetailRestaurantViewController.swift */,
+				F601006B1DF124FB00DE45D0 /* FavRestaurantCell.swift */,
+				F601006D1DF125A400DE45D0 /* FavRestaurantViewController.swift */,
+				F68816821DF1F9A500A56FA2 /* NoMoreItemsCell.swift */,
+				F68816861DF23FA800A56FA2 /* CustomizableImageView.swift */,
+				F68816881DF282EB00A56FA2 /* B68UIFloatLabelTextField.swift */,
+				F6F7CE7D1DF2AC8E00AC5CD0 /* CellAnimator.swift */,
+				F6F7CE7F1DF2AEBF00AC5CD0 /* TipInCellAnimator.swift */,
+				F6AF81AF1DF3B5DA004A7B96 /* CreateRecipeVC.swift */,
+				F6AF81B11DF3B64E004A7B96 /* RecipeViewController.swift */,
+				F6AF81B31DF3B69E004A7B96 /* RecipeCell.swift */,
+				F6AF81B51DF3B700004A7B96 /* Recipe.swift */,
+				F6AF81B71DF4AD02004A7B96 /* SwiftAlert.swift */,
 			);
 			path = RFinder;
 			sourceTree = "<group>";
@@ -108,6 +180,11 @@
 		FCBF632FF3B80449479797E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F6AF81CB1DF5FA67004A7B96 /* KYWheelTabController.framework */,
+				F601005D1DEDE6CB00DE45D0 /* Bolts.framework */,
+				F601005E1DEDE6CB00DE45D0 /* FBSDKCoreKit.framework */,
+				F601005F1DEDE6CB00DE45D0 /* FBSDKLoginKit.framework */,
+				F60100601DEDE6CB00DE45D0 /* FBSDKShareKit.framework */,
 				CFB82229A0A2B553E2F67E9B /* Pods_RFinder.framework */,
 			);
 			name = Frameworks;
@@ -183,6 +260,7 @@
 				4CD5A4101DC318D500957536 /* LaunchScreen.storyboard in Resources */,
 				4CEC80B21DE5582000CD52BA /* GoogleService-Info.plist in Resources */,
 				4CD5A40D1DC318D500957536 /* Assets.xcassets in Resources */,
+				4C2E72FA1DECB9890013938E /* SwiftyJSON in Resources */,
 				4C68B9DC1DEBB8110009158A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,12 +320,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F68816871DF23FA800A56FA2 /* CustomizableImageView.swift in Sources */,
+				F6AF81D01DF607BC004A7B96 /* Toast.swift in Sources */,
+				F68816831DF1F9A500A56FA2 /* NoMoreItemsCell.swift in Sources */,
+				F60100681DEF848300DE45D0 /* RestaurantCell.swift in Sources */,
+				F6AF81B41DF3B69E004A7B96 /* RecipeCell.swift in Sources */,
 				4C55B0151DEB47C30031ADB2 /* LoginViewController.swift in Sources */,
+				F6AF81B21DF3B64E004A7B96 /* RecipeViewController.swift in Sources */,
 				4C3C450F1DE8B17A002D4463 /* apimanager.swift in Sources */,
 				4C68B9DA1DEBB35C0009158A /* Base.swift in Sources */,
+				F68816891DF282EB00A56FA2 /* B68UIFloatLabelTextField.swift in Sources */,
+				F6F7CE801DF2AEBF00AC5CD0 /* TipInCellAnimator.swift in Sources */,
+				F6F7CE7E1DF2AC8E00AC5CD0 /* CellAnimator.swift in Sources */,
+				F601006C1DF124FB00DE45D0 /* FavRestaurantCell.swift in Sources */,
 				4CD5A4081DC318D500957536 /* ViewController.swift in Sources */,
+				4CDB49BB1DEE54D00091CEBA /* UserProfile.swift in Sources */,
 				4CD5A4061DC318D500957536 /* AppDelegate.swift in Sources */,
+				4C2E72FC1DECB9CD0013938E /* SwiftyJSON.swift in Sources */,
+				F6AF81B81DF4AD02004A7B96 /* SwiftAlert.swift in Sources */,
 				4C68B9E01DEBBBE60009158A /* Createaccount.swift in Sources */,
+				F601006E1DF125A400DE45D0 /* FavRestaurantViewController.swift in Sources */,
+				F6AF81B01DF3B5DA004A7B96 /* CreateRecipeVC.swift in Sources */,
+				F60100661DEF799400DE45D0 /* Restaurant.swift in Sources */,
+				F601006A1DF068C700DE45D0 /* DetailRestaurantViewController.swift in Sources */,
+				F6AF81B61DF3B700004A7B96 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,10 +451,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = RFinder/RFinder.entitlements;
 				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"~/Documents/FacebookSDK",
+				);
 				INFOPLIST_FILE = RFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AUSU.RFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -369,10 +471,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = RFinder/RFinder.entitlements;
 				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"~/Documents/FacebookSDK",
+				);
 				INFOPLIST_FILE = RFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AUSU.RFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};

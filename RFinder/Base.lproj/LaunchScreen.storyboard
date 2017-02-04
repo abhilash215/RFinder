@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -17,14 +17,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="T2f-N9-UXZ">
-                                <rect key="frame" x="201" y="142" width="191" height="91"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="T2f-N9-UXZ">
+                                <rect key="frame" x="113" y="248" width="375" height="104"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="restauranticon-1" highlightedImage="restauranticon-1" translatesAutoresizingMaskIntoConstraints="NO" id="yhX-MQ-rVf">
+                                <rect key="frame" x="221" y="75" width="158" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="7V5-by-4VC"/>
+                                    <constraint firstAttribute="width" constant="158" id="KIe-vR-CAi"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="T2f-N9-UXZ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="B75-JG-g92"/>
                             <constraint firstItem="T2f-N9-UXZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ejw-02-V33"/>
+                            <constraint firstItem="yhX-MQ-rVf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Wl1-uf-43t"/>
+                            <constraint firstItem="T2f-N9-UXZ" firstAttribute="top" secondItem="yhX-MQ-rVf" secondAttribute="bottom" constant="45" id="bwK-Tc-z1q"/>
+                            <constraint firstItem="yhX-MQ-rVf" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="55" id="p5o-H4-HmQ"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -35,5 +45,6 @@
     </scenes>
     <resources>
         <image name="logo" width="375" height="104"/>
+        <image name="restauranticon-1" width="512" height="512"/>
     </resources>
 </document>
