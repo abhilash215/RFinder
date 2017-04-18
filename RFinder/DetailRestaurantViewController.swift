@@ -2,7 +2,7 @@
 //  DetailRestaurantViewController.swift
 //  RFinder
 //
-//  Created by Rakesh N E on 12/1/16.
+//  Created by abhilash uday on 12/1/16.
 //  Copyright © 2016 AbhilashSU. All rights reserved.
 //
 

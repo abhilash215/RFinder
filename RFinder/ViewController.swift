@@ -298,6 +298,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITextFieldDelegate
                 let hotel_array = (hotel_anyobject as! NSArray) as Array
                 for hotel_data in hotel_array {
                     let hotel = hotel_data as! [String:AnyObject]
+                    if(hotel["address"] != nil){
+                        if(hotel["website"] != nil){
+                            if(hotel["latitude"] != nil){
+                                if(hotel["longitude"] != nil){
+                                     if(hotel["cuisine"] != nil){
                     let name:String = hotel["name"] as! String
                     let address:String = hotel["address"] as! String
                     let rating:Double = hotel["rating"] as! Double
@@ -312,7 +317,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITextFieldDelegate
                     self.restaurants += [restaurant]
                     
                 }
- 
+                            }
+                        }
+                    }
+                }
+            }
             dispatch_async(dispatch_get_main_queue(), { () -> Void in self.restaurantTableView.reloadData()})
             } else {
                 print("Response is not in the expected JSON format")

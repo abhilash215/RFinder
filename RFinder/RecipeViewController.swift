@@ -2,7 +2,7 @@
 //  RecipeViewController.swift
 //  RFinder
 //
-//  Created by Saahith Reddy on 12/3/16.
+//  Created by Abhilash uday on 12/3/16.
 //  Copyright © 2016 AbhilashSU. All rights reserved.
 //
 
